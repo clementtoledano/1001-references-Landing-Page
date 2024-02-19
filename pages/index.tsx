@@ -31,10 +31,43 @@ export default function Home() {
       <main>
         <Hero
           title={Global.product}
-          subtitle="Explain your unique solution, how it solves your customer's problem."
+          subtitle="
+          1001 Références : La solution pour booster votre activité
+          Faites connaître vos produits à de nouveaux clients et développez votre réseau !
+          
+          1001 Références est une plateforme unique qui met en relation producteurs et distributeurs de produits alimentaires.
+          
+          Que vous soyez producteur ou distributeur, 1001 Références a la solution pour vous :
+          
+          Producteurs :
+          
+          Boostez votre communication avec les distributeurs
+          Organisez votre communication en un seul outil
+          Gagnez en visibilité et faites connaître vos produits à de nouveaux clients
+          Bénéficiez d'une vitrine sur internet
+          Distributeurs :
+          
+          Accédez à une large gamme de produits et de producteurs
+          Facilitez la prise de contact avec les producteurs
+          Enrichissez vos cartes et proposez des produits innovants à vos clients
+          Développez votre activité en découvrant de nouveaux produits
+          N'hésitez plus, rejoignez dès maintenant la communauté 1001 Références !
+          
+          Découvrez les avantages de 1001 Références :
+          
+          Simple et efficace : Un seul outil pour gérer toute votre communication
+          Gain de temps : Fini les recherches interminables, trouvez les produits et les producteurs dont vous avez besoin en quelques clics
+          Visibilité accrue : Mettez en avant vos produits et développez votre notoriété
+          Nouvelles opportunités : Développez votre réseau et accédez à de nouveaux marchés
+          1001 Références, c'est la solution pour booster votre activité !
+          
+          Inscrivez-vous dès aujourd'hui sur notre newsLetter !"
           illustration=""
           subscribePlaceholder="you@email.com"
           subscribeAction="When is it ready?"
+          foot="Rejoignez la communauté 1001 Références et boostez votre activité !
+
+          #1001references #producteurs #distributeurs #alimentaire #reseau #communication #visibilite #developpement"
         />
 
         <Benefits
