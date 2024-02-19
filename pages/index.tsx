@@ -19,22 +19,17 @@ export default function Home() {
       </Head>
 
       <Notice id="subscribed">Thank you for subscribing</Notice>
-      {/* <Header id="top" title={Global.product} /> */}
+      <Header id="top" title="En cours de developpement" />
 
       <main>
         <Hero
           title="1001 Références : La solution pour booster votre activité."
-          subtitle="        
-          Faites connaître vos produits à de nouveaux clients et développez votre réseau !
-          
-          1001 Références est une plateforme unique qui met en relation producteurs et distributeurs de produits alimentaires.
-          
-          Que vous soyez producteur ou distributeur, 1001 Références a la solution pour vous !
-          
-          
-
-          
-          Inscrivez-vous dès aujourd'hui sur notre newsLetter !"
+          subtitle={[
+            "Faites connaître vos produits à de nouveaux clients et développez votre réseau !",
+            "1001 Références est une plateforme unique qui met en relation producteurs et distributeurs de produits alimentaires.",
+            "Que vous soyez producteur ou distributeur, 1001 Références a la solution pour vous !",
+            "Inscrivez-vous dès aujourd'hui sur notre newsLetter !",
+          ]}
           illustration="/assets/images/logo.jpg"
           subscribePlaceholder="votre@email.com"
           subscribeAction="Inscrivez vous!"

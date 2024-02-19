@@ -1,6 +1,6 @@
-.container {
+/* .container { 
 
-}
+}*/
 
 .header {
   max-width: var(--section-header-max-width);
@@ -41,15 +41,20 @@
 }
 
 .benefit-illustration {
-  height: 200px;
-  width: 200px;
+  width: 100%;
   background: #eee;
   border-radius: 8px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
 }
 
 .benefit-illustration-img {
-  height: 200px;
-  width: 200px;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center center;
+  
 }
 .benefit-content {
   margin-top: 24px;
