@@ -36,7 +36,7 @@ export default function Home() {
           
           Inscrivez-vous dès aujourd'hui sur notre newsLetter !"
           illustration=""
-          subscribePlaceholder="you@email.com"
+          subscribePlaceholder="votre@email.com"
           subscribeAction="Inscrivez vous!"
           foot=""
         />
@@ -82,9 +82,7 @@ export default function Home() {
           subtitle="N'hésitez plus, rejoignez dès maintenant la communauté 1001 Références !"
           illustration=""
           action="Inscrivez vous!"
-          onActionClick={() =>
-            window.scrollTo({ top: 99999, behavior: "smooth" })
-          }
+          onActionClick={() => window.scrollTo({ top: 10, behavior: "smooth" })}
         />
 
         <Highlights
