@@ -29,7 +29,13 @@ export default function Hero(p: {
         )}
       </div>
       <p className={styles.subtitle}>{p.foot}</p>
-      <div className={styles.illustration} />
+      <div className={styles.illustration}>
+        <img
+          className={styles["illustration-img"]}
+          src={p.illustration}
+          alt="Better Stack"
+        />
+      </div>
     </Section>
   );
 }

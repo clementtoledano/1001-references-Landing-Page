@@ -42,10 +42,15 @@
 
 .benefit-illustration {
   height: 200px;
+  width: 200px;
   background: #eee;
   border-radius: 8px;
 }
 
+.benefit-illustration-img {
+  height: 200px;
+  width: 200px;
+}
 .benefit-content {
   margin-top: 24px;
 }

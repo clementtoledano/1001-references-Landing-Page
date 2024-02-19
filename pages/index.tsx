@@ -35,7 +35,7 @@ export default function Home() {
 
           
           Inscrivez-vous dès aujourd'hui sur notre newsLetter !"
-          illustration=""
+          illustration="/assets/images/logo.jpg"
           subscribePlaceholder="votre@email.com"
           subscribeAction="Inscrivez vous!"
           foot=""
@@ -47,7 +47,7 @@ export default function Home() {
           subtitle=""
           benefits={[
             {
-              illustration: "./../../public/vigneron.jpg",
+              illustration: "/assets/images/vigneron.jpg",
               title: "Nouveaux Producteurs",
               textList: [
                 "Boostez votre communication avec les distributeurs.",
@@ -57,7 +57,7 @@ export default function Home() {
               ],
             },
             {
-              illustration: "/public/personne.jpg",
+              illustration: "/assets/images/personne.jpg",
               title: "Producteur déjà en activité",
               textList: [
                 "Centraliser la communication en une seule et même outil.",
@@ -65,7 +65,7 @@ export default function Home() {
               ],
             },
             {
-              illustration: "",
+              illustration: "/assets/images/bar.jpg",
               title: "Distributeurs",
               textList: [
                 "Accédez à une large gamme de produits et de producteurs.",
