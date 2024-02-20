@@ -46,18 +46,16 @@
 
 .highlight-illustration {
   width: 100%;
-  max-width: 450px;
-  min-height: 300px;
+  max-width: 200px;
+  min-height: 200px;
   background: #eee;
   border-radius: 8px;
 }
-.highlight-icon {
-  width: 100%;
-  max-width: 450px;
-  min-height: 300px;
+/* .highlight-icon {
+  width: 100%; 
   background: #eee;
   border-radius: 8px;
-}
+} */
 
 .highlight-content {
   margin-top: 16px;

@@ -1,15 +1,22 @@
 import Head from "next/head";
 import Benefits from "../blocks/Benefits";
 import Break from "../blocks/Break";
-import Epilogue from "../blocks/Epilogue";
-import Features from "../blocks/Features";
 import Footer from "../blocks/Footer";
 import Header from "../blocks/Header";
 import Hero from "../blocks/Hero";
 import Highlights from "../blocks/Highlights";
 import Notice from "../components/Notice";
 import Global from "../styles/global.json";
-import { GrActions } from "react-icons/gr";
+
+import {
+  FcSettings,
+  FcAdvance,
+  FcBullish,
+  FcCameraIdentification,
+  FcCalendar,
+  FcClock,
+} from "react-icons/fc";
+import Epilogue from "../blocks/Epilogue";
 
 export default function Home() {
   return (
@@ -76,7 +83,7 @@ export default function Home() {
         <Break
           title="Pour être informé des avancées du projet !"
           subtitle="N'hésitez plus, rejoignez dès maintenant la communauté 1001 Références !"
-          illustration=""
+          illustration="/assets/images/logo.jpg"
           action="Inscrivez vous!"
           onActionClick={() => window.scrollTo({ top: 10, behavior: "smooth" })}
         />
@@ -89,25 +96,29 @@ export default function Home() {
               illustration: "",
               title: "Simple et efficace",
               text: "Un seul outil pour gérer toute votre communication",
-              icon: <GrActions />,
+              icon: <FcCalendar style={{ width: "100%", height: "100%" }} />,
             },
             {
               illustration: "",
               title: "Gain de temps",
               text: "Fini les recherches interminables, trouvez les produits et les producteurs dont vous avez besoin en quelques clics",
-              icon: <GrActions />,
+              icon: <FcClock style={{ width: "100%", height: "100%" }} />,
             },
             {
               illustration: "",
               title: "Visibilité accrue",
               text: "Mettez en avant vos produits et développez votre notoriété",
-              icon: <GrActions />,
+              icon: (
+                <FcCameraIdentification
+                  style={{ width: "100%", height: "100%" }}
+                />
+              ),
             },
             {
               illustration: "",
               title: "Nouvelles opportunités",
               text: "Développez votre réseau et accédez à de nouveaux marchés ",
-              icon: <GrActions />,
+              icon: <FcBullish style={{ width: "100%", height: "100%" }} />,
             },
           ]}
         />
@@ -150,13 +161,15 @@ export default function Home() {
           ]}
         /> */}
 
-        {/* <Epilogue
-          title="Ask if your visitor wants to solve problem X today"
-          subtitle="Explain how your solution will solve this problem and ask them to start a free trial, or any other low-key CTA they could take"
-          illustration=""
-          subscribePlaceholder="you@email.com"
-          subscribeAction="Inscrivez vous!"
-        /> */}
+        {
+          <Epilogue
+            title="Ne vous demandez pas si vous en avez besoin, venez rejoindre la communauté 1001 Références !"
+            // subtitle="Explain how your solution will solve this problem and ask them to start a free trial, or any other low-key CTA they could take"
+            illustration=""
+            subscribePlaceholder="votre@email.com"
+            subscribeAction="Inscrivez vous!"
+          />
+        }
       </main>
 
       <Footer title={Global.product} />
