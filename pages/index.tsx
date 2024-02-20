@@ -8,7 +8,8 @@ import Highlights from "../blocks/Highlights";
 import Notice from "../components/Notice";
 import Global from "../styles/global.json";
 
-import { CiBullhorn, CiClock1, CiGlobe, CiRead } from "react-icons/ci";
+import { FaChartLine, FaClock, FaCommentsDollar, FaEye } from "react-icons/fa6";
+
 import Epilogue from "../blocks/Epilogue";
 
 export default function Home() {
@@ -89,25 +90,25 @@ export default function Home() {
               illustration: "",
               title: "Simple et efficace",
               text: "Un seul outil pour gérer toute votre communication",
-              icon: <CiBullhorn style={{ width: "100%", height: "100%" }} />,
+              icon: <FaCommentsDollar className="highlight-icon" />,
             },
             {
               illustration: "",
               title: "Gain de temps",
               text: "Fini les recherches interminables, trouvez les produits et les producteurs dont vous avez besoin en quelques clics",
-              icon: <CiClock1 style={{ width: "100%", height: "100%" }} />,
+              icon: <FaClock className="highlight-icon" />,
             },
             {
               illustration: "",
               title: "Visibilité accrue",
               text: "Mettez en avant vos produits et développez votre notoriété",
-              icon: <CiRead style={{ width: "100%", height: "100%" }} />,
+              icon: <FaEye className="highlight-icon" />,
             },
             {
               illustration: "",
               title: "Nouvelles opportunités",
               text: "Développez votre réseau et accédez à de nouveaux marchés ",
-              icon: <CiGlobe style={{ width: "100%", height: "100%" }} />,
+              icon: <FaChartLine className="highlight-icon" />,
             },
           ]}
         />
