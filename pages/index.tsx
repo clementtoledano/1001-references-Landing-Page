@@ -9,6 +9,7 @@ import Hero from "../blocks/Hero";
 import Highlights from "../blocks/Highlights";
 import Notice from "../components/Notice";
 import Global from "../styles/global.json";
+import { GrActions } from "react-icons/gr";
 
 export default function Home() {
   return (
@@ -88,21 +89,25 @@ export default function Home() {
               illustration: "",
               title: "Simple et efficace",
               text: "Un seul outil pour gérer toute votre communication",
+              icon: <GrActions />,
             },
             {
               illustration: "",
               title: "Gain de temps",
               text: "Fini les recherches interminables, trouvez les produits et les producteurs dont vous avez besoin en quelques clics",
+              icon: <GrActions />,
             },
             {
               illustration: "",
               title: "Visibilité accrue",
               text: "Mettez en avant vos produits et développez votre notoriété",
+              icon: <GrActions />,
             },
             {
               illustration: "",
               title: "Nouvelles opportunités",
               text: "Développez votre réseau et accédez à de nouveaux marchés ",
+              icon: <GrActions />,
             },
           ]}
         />
