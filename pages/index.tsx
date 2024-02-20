@@ -8,14 +8,7 @@ import Highlights from "../blocks/Highlights";
 import Notice from "../components/Notice";
 import Global from "../styles/global.json";
 
-import {
-  FcSettings,
-  FcAdvance,
-  FcBullish,
-  FcCameraIdentification,
-  FcCalendar,
-  FcClock,
-} from "react-icons/fc";
+import { CiBullhorn, CiClock1, CiGlobe, CiRead } from "react-icons/ci";
 import Epilogue from "../blocks/Epilogue";
 
 export default function Home() {
@@ -96,29 +89,25 @@ export default function Home() {
               illustration: "",
               title: "Simple et efficace",
               text: "Un seul outil pour gérer toute votre communication",
-              icon: <FcCalendar style={{ width: "100%", height: "100%" }} />,
+              icon: <CiBullhorn style={{ width: "100%", height: "100%" }} />,
             },
             {
               illustration: "",
               title: "Gain de temps",
               text: "Fini les recherches interminables, trouvez les produits et les producteurs dont vous avez besoin en quelques clics",
-              icon: <FcClock style={{ width: "100%", height: "100%" }} />,
+              icon: <CiClock1 style={{ width: "100%", height: "100%" }} />,
             },
             {
               illustration: "",
               title: "Visibilité accrue",
               text: "Mettez en avant vos produits et développez votre notoriété",
-              icon: (
-                <FcCameraIdentification
-                  style={{ width: "100%", height: "100%" }}
-                />
-              ),
+              icon: <CiRead style={{ width: "100%", height: "100%" }} />,
             },
             {
               illustration: "",
               title: "Nouvelles opportunités",
               text: "Développez votre réseau et accédez à de nouveaux marchés ",
-              icon: <FcBullish style={{ width: "100%", height: "100%" }} />,
+              icon: <CiGlobe style={{ width: "100%", height: "100%" }} />,
             },
           ]}
         />

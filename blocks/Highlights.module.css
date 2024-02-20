@@ -35,7 +35,7 @@
 .highlight {
   max-width: var(--list-item-max-width);
   margin: 0 auto;
-  margin-bottom: 48px;
+  margin-bottom: 10px;
 }
 .highlight:nth-child(even) {
   flex-direction: row-reverse;
@@ -51,11 +51,13 @@
   background: #eee;
   border-radius: 8px;
 }
-/* .highlight-icon {
+.highlight-icon {
   width: 100%; 
-  background: #eee;
+  max-width: 150px;
+  min-height: 150px;
+  /* background: #eee; */
   border-radius: 8px;
-} */
+}
 
 .highlight-content {
   margin-top: 16px;

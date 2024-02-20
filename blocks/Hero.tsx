@@ -18,13 +18,6 @@ export default function Hero(p: {
   return (
     <Section id={p.id} className={className}>
       <div className={styles.header}>
-        <div className={styles.illustration}>
-          <img
-            className={styles["illustration-img"]}
-            src={p.illustration}
-            alt="Better Stack"
-          />
-        </div>
         <h1 className={styles.title}>{p.title}</h1>
         {p.subtitle.map((s, i) => (
           <p key={i} className={styles.subtitle}>
@@ -40,6 +33,13 @@ export default function Hero(p: {
         )}
       </div>
       <p className={styles.subtitle}>{p.foot}</p>
+      <div className={styles.illustration}>
+        <img
+          className={styles["illustration-img"]}
+          src={p.illustration}
+          alt="Better Stack"
+        />
+      </div>
     </Section>
   );
 }
