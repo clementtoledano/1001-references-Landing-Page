@@ -81,6 +81,7 @@
   .benefit {
     flex: 1 1 0;
     margin-right: 64px;
+    
 }
   .benefit:last-child {
     margin-right: 0;

@@ -34,8 +34,8 @@
 
 .illustration {
   width: 100%;
-  height: 300px;
-  background: #eee;
+  height: 'auto';
+  /* background: #eee; */
   border-radius: 8px;
   margin-bottom: 20px;
 }

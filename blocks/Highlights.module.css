@@ -1,6 +1,4 @@
-.container {
 
-}
 
 .header {
   max-width: var(--section-header-max-width);
@@ -45,19 +43,16 @@
 }
 
 .highlight-illustration {
-  width: 100%;
+  width: 100%; 
+  height: auto;
   max-width: 200px;
   min-height: 200px;
-  background: #eee;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.highlight-icon {
-  width: 100%; 
-  max-width: 150px;
-  min-height: 150px;
-  /* background: #eee; */
-  border-radius: 8px;
-}
+
 
 .highlight-content {
   margin-top: 16px;
@@ -82,7 +77,6 @@
     justify-content: stretch;
     max-width: initial;
   }
-  .highlight-illustration {}
   .highlight-content {
     flex: 1 1 0;
     margin-left: 48px;

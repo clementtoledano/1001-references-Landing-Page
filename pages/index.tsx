@@ -1,16 +1,14 @@
 import Head from "next/head";
 import Benefits from "../blocks/Benefits";
 import Break from "../blocks/Break";
+import Epilogue from "../blocks/Epilogue";
 import Footer from "../blocks/Footer";
 import Header from "../blocks/Header";
 import Hero from "../blocks/Hero";
 import Highlights from "../blocks/Highlights";
 import Notice from "../components/Notice";
 import Global from "../styles/global.json";
-
 import { FaChartLine, FaClock, FaCommentsDollar, FaEye } from "react-icons/fa6";
-
-import Epilogue from "../blocks/Epilogue";
 
 export default function Home() {
   return (
@@ -90,25 +88,25 @@ export default function Home() {
               illustration: "",
               title: "Simple et efficace",
               text: "Un seul outil pour gérer toute votre communication",
-              icon: <FaCommentsDollar className="highlight-icon" />,
+              icon: <FaCommentsDollar className="highlight-icon" size={100} />,
             },
             {
               illustration: "",
               title: "Gain de temps",
               text: "Fini les recherches interminables, trouvez les produits et les producteurs dont vous avez besoin en quelques clics",
-              icon: <FaClock className="highlight-icon" />,
+              icon: <FaClock className="highlight-icon" size={100} />,
             },
             {
               illustration: "",
               title: "Visibilité accrue",
               text: "Mettez en avant vos produits et développez votre notoriété",
-              icon: <FaEye className="highlight-icon" />,
+              icon: <FaEye className="highlight-icon" size={100} />,
             },
             {
               illustration: "",
               title: "Nouvelles opportunités",
               text: "Développez votre réseau et accédez à de nouveaux marchés ",
-              icon: <FaChartLine className="highlight-icon" />,
+              icon: <FaChartLine className="highlight-icon" size={100} />,
             },
           ]}
         />

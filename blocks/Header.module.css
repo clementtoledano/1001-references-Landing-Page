@@ -2,6 +2,7 @@
   height: var(--page-header-height);
   margin-bottom: calc(-1 * var(--page-header-height));
   padding: 16px var(--page-padding);
+  background-color: blue;
 }
 
 .content {
