@@ -28,7 +28,7 @@ export default function Highlights(p: {
         {p.highlights.map((item, i) => {
           return (
             <li key={i} className={styles.highlight}>
-              {item.icon}
+              <div className={styles["highlight-icon"]}>{item.icon}</div>
 
               {/* <div className={styles["highlight-illustration"]} /> */}
               <div className={styles["highlight-content"]}>

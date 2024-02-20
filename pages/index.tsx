@@ -61,7 +61,7 @@ export default function Home() {
               ],
             },
             {
-              illustration: "/assets/images/bar.jpg",
+              illustration: "/assets/images/epicier.jpg",
               title: "Distributeurs",
               textList: [
                 "Accédez à une large gamme de produits et de producteurs.",
