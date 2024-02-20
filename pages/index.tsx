@@ -54,7 +54,7 @@ export default function Home() {
             },
             {
               illustration: "/assets/images/personne.jpg",
-              title: "Producteur déjà en activité",
+              title: "Producteurs déjà en activité",
               textList: [
                 "Centraliser la communication en une seule et même outil.",
                 "Faites connaître vos produits à de nouveaux clients",
