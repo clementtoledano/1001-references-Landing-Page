@@ -25,9 +25,10 @@ export default function Home() {
         <Hero
           title="1001 Références : La solution pour booster votre activité."
           subtitle={[
-            "Faites connaître vos produits à de nouveaux clients et développez votre réseau !",
-            "1001 Références est une plateforme unique qui met en relation producteurs et distributeurs de produits alimentaires.",
-            "Que vous soyez producteur ou distributeur, 1001 Références a la solution pour vous !",
+            "Diversifiez votre clientèle ou votre offre de produits grâce à 1001 Références ! Que vous soyez producteur cherchant à élargir votre audience ou distributeur souhaitant étoffer votre catalogue, notre plateforme en ligne vous offre une solution sur mesure.",
+            "Pour les nouveaux producteurs, notre plateforme simplifie la communication avec les distributeurs en centralisant tous les échanges. Créez votre vitrine en ligne pour exposer vos produits à de nouveaux clients potentiels, et facilitez la gestion de vos relations commerciales.",
+            "Les distributeurs bénéficient quant à eux d'un accès à une large gamme de produits et de fournisseurs, favorisant ainsi la diversification de leur offre. Notre plateforme leur offre également la possibilité de nouer des contacts aisément avec les producteurs et de découvrir des produits innovants.",
+            "Optimisez votre activité dès maintenant en rejoignant la communauté 1001 Références !",
             "Inscrivez-vous dès aujourd'hui sur notre newsLetter !",
           ]}
           illustration="/assets/images/logo.jpg"

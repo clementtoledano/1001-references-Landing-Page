@@ -22,7 +22,8 @@
   font-weight: var(--subtitle-font-weight);
   line-height: var(--subtitle-line-height);
   letter-spacing: var(--subtitle-letter-spacing);
-  /* text-align: center; */
+  text-align: start;
+  margin-bottom: 10px;
   color: var(--text-shade);
 }
 
@@ -30,6 +31,7 @@
   margin: 0 auto;
   margin-top: 32px;
   max-width: 550px;
+  
 }
 
 .illustration {
@@ -37,7 +39,7 @@
   height: 'auto';
   /* background: #eee; */
   border-radius: 8px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .illustration-img{
@@ -46,4 +48,6 @@
   justify-content: center;
   margin: 0 auto;
   display: flex;
+  border-radius: 8px;
+
 }
